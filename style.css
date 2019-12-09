@@ -25,20 +25,6 @@ html, body {
   padding-left: 2.5rem;
 }
 
-@media (max-width: 767px) {
-  .main-text {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-
-  .links {
-    padding-right: 0;
-    padding-left: 0;
-    width: 100%;
-    text-align: center;
-  }
-}
-
 h1 {
   font-size: 7rem;
   margin-bottom: 0.25em;
@@ -54,4 +40,22 @@ p {
 a {
   font-size: 2rem;
   color: #48689a;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-top: 50px;
+  }
+
+  .main-text {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .links {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
