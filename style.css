@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway";
+}
+
+.container {
+  width: 54rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.main-text {
+  display: block;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.links {
+  position: absolute;
+  bottom: 3rem;
+  font-size: 2rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media (max-width: 767px) {
+  .main-text {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .links {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-size: 7rem;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+a {
+  font-size: 2rem;
+  color: #48689a;
+}
