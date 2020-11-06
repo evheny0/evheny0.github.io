@@ -28,6 +28,25 @@ html, body {
   padding-bottom: 1.5rem;
 }
 
+.github {
+  color: #24292e;
+}
+
+.linkedin {
+  color: #2977c9;
+}
+
+.instagram {
+  background: linear-gradient(90deg,#feda75 1.79%,#fa7e1e 14.68%,#d62976 48.91%,#952fbf 72.72%,#4f5bd5 97.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #262626;
+}
+
+.telegram {
+  color: #32afed;
+}
+
 h1 {
   font-size: 7rem;
   margin-bottom: 0.25em;
